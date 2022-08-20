@@ -43,7 +43,7 @@ function init() {
   var hasInit = false;
   if(hasInit === false)
   {
-      vAudio.play();
+      vAudio.onplay;
       console.log("hi");
   }
 }
