@@ -36,9 +36,16 @@ function init() {
     document.getElementById('card').classList.toggle('card-show');
   }, false);
   
-  
-  
+
   nametag.innerText = to;
+
+  var vAudio = document.getElementById("divAudio");
+  var hasInit = false;
+  if(hasInit === false)
+  {
+      vAudio.play();
+      console.log("hi");
+  }
 }
 
 init();
