@@ -1,5 +1,5 @@
 
-var to = 'Bé Hằng!';
+var to = 'Bé Huyền!';
 var gift_url = '';
 var gift_image_url = 'hihi.jpg';
 
