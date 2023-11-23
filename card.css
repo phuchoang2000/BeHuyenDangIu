@@ -1,5 +1,5 @@
     #card {
-        margin: 4%;
+        margin: 8%;
         position: absolute;
         height: auto;
         width: 450px;
@@ -11,7 +11,7 @@
         transform: rotate(5deg);
         top: -15px;
         opacity: 0;
-        left: -100%;
+        left: -200%;
         z-index: 9999 !important;
     }
 

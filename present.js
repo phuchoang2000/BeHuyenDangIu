@@ -34,17 +34,18 @@ function init() {
   present.addEventListener("click", function(e){
     present.classList.toggle("open");
     document.getElementById('card').classList.toggle('card-show');
+    playPauseMedia();
   }, false);
   
 
   nametag.innerText = to;
 
   var vAudio = document.getElementById("divAudio");
-  var hasInit = false;
-  if(hasInit === false)
-  {
-      vAudio.onplay;
-      console.log("hi");
+  const controls = document.querySelector(".controls");
+  vAudio.removeAttribute("controls");
+  function playPauseMedia() {
+    console.log('run');
+    vAudio.play();
   }
 }
 
